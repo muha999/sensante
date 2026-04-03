@@ -40,3 +40,6 @@ print(f"\n{'=' * 50}")
 print("Exploration terminee !")
 print("Prochain lab : entrainer un modele ML")
 print(f"{'=' * 50}")
+
+#exo 1
+print(df.groupby(["sexe", "diagnostic"]).size())
